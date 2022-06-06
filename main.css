@@ -1,20 +1,27 @@
 body,html{
     height: 100%;
-    margin: 0.5%;
+    
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkolivegreen;
+    background-color: rgba(248, 248, 248, 0.575);
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: underline;
 }
 h2{
     font-size:medium;
     color: black;
     text-align: center;
     font-size: large;
+    margin: 10px;
 
 }
 p{
     font-size: 20px;
-    color: white;
+    color: rgba(61, 6, 6, 0);
     text-align:left;
     font-style:italic;
 
@@ -22,3 +29,32 @@ p{
 li{
     color: darkred;
 }
+  #Contact{
+      background-color: rgba(138, 128, 194, 0.336);
+      width: 100%;
+       padding: 15px;
+       margin: 0%;
+  }
+ 
+ #Contact .contents{
+     display: grid;
+     color: chocolate;
+     font-family: 'Times New Roman', Times, serif;
+     text-size-adjust :20px;
+    }
+footer{
+    width: 100%;
+    text-align: right;
+    background-color: cadetblue;
+    margin: 0px;
+    
+}
+#footer .contents{
+    height: 100%;
+
+}
+#footer .contents .socials{
+    margin: 10px;
+
+}
+ 
