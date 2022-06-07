@@ -16,10 +16,35 @@
         </ul>
         
     </nav>
-    <h1>Conract us!</h1>
+    <h1>Contact me!</h1>
     <footer>
         <h3>Copyright reserved</h3>
         <p>Coded and Designed by <br> Elvis Gicharu</p>
     </footer>
+
+    <div id="overlay"></div>
+    <form>
+        <h2>Contact Me</h2>
+        <label for="Name">Name</label>
+        <input type="text" id="name" placeholder="Your name">
+        <small class="error"></small>
+
+        
+        <label for="Email">Email</label>
+        <input type="text" id="Email" placeholder="Your Email">
+        <small class="error"></small>
+
+        
+        <label for="Message">Message</label>
+        <textarea id="Message" placeholder="Your Message" rows="6"></textarea>
+        <small class="error"></small>
+
+        <div id="centre">
+            <input type="submit" value="Send Message">
+            <p id="success"></p>
+
+        </div>
+    </form>
+    <script src="script.js"></script>
 </body>
 </html>
